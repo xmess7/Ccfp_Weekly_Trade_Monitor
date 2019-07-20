@@ -79,6 +79,7 @@ https://www.forexfactory.com/showthread.php?p=12025485#post12025485
 Custom Indicator:
 -------------------------------------
 Check out this video on how to build your own indicator with your own rules.
+
 https://www.youtube.com/watch?v=iAXwdilGqwM
 
 The source code for this is in the folder CUSTOMER INDICATOR/
