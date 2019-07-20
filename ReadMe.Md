@@ -16,6 +16,19 @@ https://www.youtube.com/watch?v=yqiu9Eq0HeU
 
 The video however does not cover the setup\installation of the EA and indicators. A folder is provided that contains quick guide PDFs.  The guides provide quick installation/setup instructions.  The guides are outdated but thye do convey the basic information that can help the user setup the EA/Indicators. In addition I have provided the templates I use for live trading.  IF the user is familiar with the metatrader setup, they should in no time have this EA up and running.  As time permits I will create more up to date video instructions that pertain to installation\setup.
 
+INSTALLATION:
+----------------------------------------
+
+Install the Experts and Indicators in their respective folders.  Install the Template in the corresponding folder.
+Open up a chart in MetaTrader and apply the template.  That will load the EA and all of the indicator and presets, and you are ready to go.
+
+On some occasions user would experience issues of not enough history.  This is due to the requirement that the currency indicators (CMSM or CCfp-Diff) may requir.  I have included a Script that will populate all of the symbols with the required history. See the Scripts folder (NOTE: this script is only for MT4, don't recall what we did with MT5, see the thread :)  ).  
+
+FONTS:
+----------------------------------------
+
+Sometimes systems do not have the EA fonts. See the EA FONTS folder for in case you are seeing oversized fonts or wierd symbols on the charts.
+
 TEMPLATES:
 ----------------------------------------
 
@@ -60,27 +73,12 @@ EA Preset (2019.02.20):
 
 https://www.forexfactory.com/showthread.php?p=12025485#post12025485
 
-
-INSTALLATION:
 ----------------------------------------
-
-Install the Experts and Indicators in their respective folders.  Install the Template in the corresponding folder.
-Open up a chart in MetaTrader and apply the template.  That will load the EA and all of the indicator and presets, and you are ready to go.
-
-On some occasions user would experience issues of not enough history.  This is due to the requirement that the currency indicators (CMSM or CCfp-Diff) may requir.  I have included a Script that will populate all of the symbols with the required history. See the Scripts folder (NOTE: this script is only for MT4, don't recall what we did with MT5, see the thread :)  ).  
-
-FONTS:
-----------------------------------------
-
-Sometimes systems do not have the EA fonts. See the EA FONTS folder for in case you are seeing oversized fonts or wierd symbols on the charts.
 
 There is alot more to cover but for now I urge you to go to the FFX thread:
  
  https://www.forexfactory.com/showthread.php?t=635569
  
- And discover what has been done with the EA.  Page 1 contains some links to other approaches (negative trigger etc).
- Check it out.
-
-More videos to come soon to explain more of how to use this EA.
+ And discover what has been done with the EA. More videos to come soon to explain more of how to use this EA.
 
 Xmess7
