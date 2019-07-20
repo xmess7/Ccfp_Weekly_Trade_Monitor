@@ -50,7 +50,7 @@ https://www.forexfactory.com/showthread.php?p=11995302#post11995302
 =============================
 
 MRDFX:
-
+----------------------------------------
 EA Preset (2019.02.20):
 
 https://www.forexfactory.com/showthread.php?p=12025485#post12025485
