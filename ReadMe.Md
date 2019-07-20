@@ -10,9 +10,13 @@ Video on final version: https://www.youtube.com/watch?v=yqiu9Eq0HeU
 The video however does not cover the setup\installation of the EA and indicators. A folder is provided that contains quick guide PDFs.  The guides provide quick installation/setup instructions.  The guides are outdated but thye do convey the basic information that can help the user.  As time permits I will create more up to date video instructions that pertain to installation\setup.
 
 Under the MT Folders you will find ready to go templates.  These are the templates I was using on my live accounts.
-template EA_
+template 1701_EA.tpl was used Monday's and Wednesday's
+template 1901_EA.tpl was used Tuesday's and Thursday's
+No trading on Friday's.
 Install the Experts and Indicators in their respective folders.  Install the Template in the corresponding folder.
-Open up a chart in MetaTrader and apply the template.  That will load the EA and all of the indicators and settings, ready to go.
+Open up a chart in MetaTrader and apply the template.  That will load the EA and all of the indicator and presets, and you are ready to go.
+
+On some occasions user would experience issues of not enough history.  This was due to the requirement that the currency indicators (CMSM or CCfp-Diff) required.  
 
 For more info go to the FFx link.
 
