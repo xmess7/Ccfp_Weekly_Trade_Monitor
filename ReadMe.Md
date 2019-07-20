@@ -29,7 +29,12 @@ FONTS:
 
 Sometimes systems do not have the EA fonts. See the EA FONTS folder for in case you are seeing oversized fonts or wierd symbols on the charts.
 
-For more info go to the FFx link.
+There is alot more to cover but for now I urge you to go to the FFX thread:
+ 
+ https://www.forexfactory.com/showthread.php?t=635569
+ 
+ And discover what has been done with the EA.  Page 1 contains some links to other approaches (negative trigger etc).
+ Check it out.
 
 More videos to come soon to explain more of how to use this EA.
 
