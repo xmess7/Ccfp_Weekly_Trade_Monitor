@@ -1,4 +1,4 @@
-THE XM7 CCFP WEEKLY TRADE MONITOR EXPERT ADVISOR
+THE XM7 CCFPT WEEKLY TRADE MONITOR EXPERT ADVISOR
 
 The ccfp_weekly_trade_monitor Expert Advisor (EA) is a tool that was developed to support the basket approach idea provided by Forexpinbar (forexfactory thread: https://www.forexfactory.com/showthread.php?t=635569).  The project started back on January 2017 and finally after more than 52 iterations (I say more cause there were subversions) we have arrived to what I consider the final versions(two platforms MT4 and MT5).
 
@@ -20,7 +20,8 @@ template 1701_EA.tpl was used Monday's and Wednesday's
 template 1901_EA.tpl was used Tuesday's and Thursday's
 No trading on Friday's.
 
-Other successfull templates can be found at the following posts:
+
+
 YOhEC:
 ----------------------------------------
 Negative Trigger Approach: 
