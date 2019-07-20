@@ -13,12 +13,41 @@ Video on final version: https://www.youtube.com/watch?v=yqiu9Eq0HeU
 
 The video however does not cover the setup\installation of the EA and indicators. A folder is provided that contains quick guide PDFs.  The guides provide quick installation/setup instructions.  The guides are outdated but thye do convey the basic information that can help the user setup the EA/Indicators. In addition I have provided the templates I use for live trading.  IF the user is familiar with the metatrader setup, they should in no time have this EA up and running.  As time permits I will create more up to date video instructions that pertain to installation\setup.
 
-MY TEMPLATES:
+TEMPLATES:
 
 Under the MT Folders you will find ready to go templates.  These are the templates I was using on my live accounts.
 template 1701_EA.tpl was used Monday's and Wednesday's
 template 1901_EA.tpl was used Tuesday's and Thursday's
 No trading on Friday's.
+
+Other successfull templates can be found at the following posts:
+YOhEC:
+----------------------------------------
+Negative Trigger Approach: 
+Details of Approach (2019.05.08)
+https://www.forexfactory.com/showthread.php?p=12261916#post12261916
+
+----------------------------------------
+2Basket Approach 
+
+Details of Approach (2018.05.18):
+https://www.forexfactory.com/showthread.php?p=11075093#post11075093
+
+Indicator/EA setup. Images Included (2018.05.18):
+https://www.forexfactory.com/showthread.php?p=11074598#post11074598
+
+Last update (2019.02.13):
+https://www.forexfactory.com/showthread.php?p=11995302#post11995302
+
+
+=============================
+
+MrDFX:
+EA Preset (2019.02.20)
+https://www.forexfactory.com/showthread.php?p=12025485#post12025485
+
+
+INSTALLATION:
 
 Install the Experts and Indicators in their respective folders.  Install the Template in the corresponding folder.
 Open up a chart in MetaTrader and apply the template.  That will load the EA and all of the indicator and presets, and you are ready to go.
