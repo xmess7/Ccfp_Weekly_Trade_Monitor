@@ -1,4 +1,4 @@
-USE ONLY ON MT4 PLATFORM
+USE THE ForceLoadHistoricalData.ex4 ONLY ON THE MT4 PLATFORM
 
 Use this Script if you run into problems with the Cffp-diff or CMSM indicators.
 This will populate the history files for each symbol so that the indicators have the the history they require to operate.
