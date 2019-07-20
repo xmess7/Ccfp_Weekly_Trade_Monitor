@@ -1,11 +1,16 @@
-ccfp_weekly is a forex EA based on the idea provided by Forexpinbar (forexfactory)
+The ccfp_weekly_trade_monitor Expert Advisor (EA) is a tool that was developed to support the basket approach idea provided by Forexpinbar (forexfactory thread: https://www.forexfactory.com/showthread.php?t=635569).  The project started back on January 2017 and finally after more than 52 iterations (I say more cause there were subversions) we have arrived to what I consider the final versions(two platforms MT4 and MT5).
 
-More Info at:
-https://www.forexfactory.com/showthread.php?t=635569
+These versions are stable, as far as the "CORE" functions are concerned. A group of us (see the last pages of forexfactory thread) have been running the EA under live accounts with success for the last year and a half.   I do not plan to make anymore upgrades, at least not to the functionality or approach the code has.  I may add additional help functions as time permits.
 
+The ccfp_trade_monitor EA is a glorified monitor.   It does not determine in of itself, what trades to initiate.  The EA takes a list of SUGGESTED trade operations from an indicator (currently CCFP-Diff or CMSM but you will be able to create your own custom indicator), and given certain requirements, creates a basket of trades.   The EA then monitors the overall profit of the basket of trades and applies money management to control risk.  So without an indicator the EA monitor cannot do anything.
+
+The following video provides information on the latest updates and how to use the EA in the strategy tester. 
 Video on final version: https://www.youtube.com/watch?v=yqiu9Eq0HeU
 
-Under the MT Folders you will find ready to go templates.
+The video however does not cover the setup\installation of the EA and indicators. A folder is provided that contains quick guide PDFs.  The guides provide quick installation/setup instructions.  The guides are outdated but thye do convey the basic information that can help the user.  As time permits I will create more up to date video instructions that pertain to installation\setup.
+
+Under the MT Folders you will find ready to go templates.  These are the templates I was using on my live accounts.
+template EA_
 Install the Experts and Indicators in their respective folders.  Install the Template in the corresponding folder.
 Open up a chart in MetaTrader and apply the template.  That will load the EA and all of the indicators and settings, ready to go.
 
