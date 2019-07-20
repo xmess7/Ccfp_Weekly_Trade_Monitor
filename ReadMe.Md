@@ -19,12 +19,15 @@ The video however does not cover the setup\installation of the EA and indicators
 TEMPLATES:
 ----------------------------------------
 
+XM7
+----------------------------------------
+
 Under the MT Folders you will find ready to go templates.  These are the templates I was using on my live accounts.
 template 1701_EA.tpl was used Monday's and Wednesday's
 template 1901_EA.tpl was used Tuesday's and Thursday's
 No trading on Friday's.
 
-
+----------------------------------------
 
 YOhEC:
 ----------------------------------------
