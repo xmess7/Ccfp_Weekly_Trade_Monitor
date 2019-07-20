@@ -1,0 +1,17 @@
+
+https://www.forexfactory.com/showthread.php?p=11957374#post11957374
+
+DrySe:
+"Hey, did you ever figure out how to get the CMSM working? I'm having the same issue. Screen shot and Experts Log attached."
+
+Grandaevus:
+There's a bug in mt5. Terminal stops updating history when you attach an indicator/ea that use multi time frames & multi symbols.
+
+In order to force the terminal to make it load the needed history please open 7 new charts for the following symbols.
+
+EURUSD , GBPUSD , USDCHF , USDJPY , USDCAD , AUDUSD , NZDUSD (TimeFrame = CMSM Timeframe Setting which is 4H in your case)
+
+Wait terminal to load the required history.
+
+Close the charts.
+  
