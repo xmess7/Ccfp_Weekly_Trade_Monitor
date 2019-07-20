@@ -9,7 +9,8 @@ The ccfp_trade_monitor EA is a glorified monitor.   It does not determine in of 
 VIDEOS:
 
 The following video provides information on the latest updates and how to use the EA in the strategy tester. 
-Video on final version: https://www.youtube.com/watch?v=yqiu9Eq0HeU
+Video on final version: 
+https://www.youtube.com/watch?v=yqiu9Eq0HeU
 
 The video however does not cover the setup\installation of the EA and indicators. A folder is provided that contains quick guide PDFs.  The guides provide quick installation/setup instructions.  The guides are outdated but thye do convey the basic information that can help the user setup the EA/Indicators. In addition I have provided the templates I use for live trading.  IF the user is familiar with the metatrader setup, they should in no time have this EA up and running.  As time permits I will create more up to date video instructions that pertain to installation\setup.
 
@@ -25,26 +26,33 @@ No trading on Friday's.
 YOhEC:
 ----------------------------------------
 Negative Trigger Approach: 
-Details of Approach (2019.05.08)
+
+Details of Approach (2019.05.08):
+
 https://www.forexfactory.com/showthread.php?p=12261916#post12261916
 
 ----------------------------------------
 2Basket Approach 
 
 Details of Approach (2018.05.18):
+
 https://www.forexfactory.com/showthread.php?p=11075093#post11075093
 
 Indicator/EA setup. Images Included (2018.05.18):
+
 https://www.forexfactory.com/showthread.php?p=11074598#post11074598
 
 Last update (2019.02.13):
+
 https://www.forexfactory.com/showthread.php?p=11995302#post11995302
 
 
 =============================
 
-MrDFX:
-EA Preset (2019.02.20)
+MRDFX:
+
+EA Preset (2019.02.20):
+
 https://www.forexfactory.com/showthread.php?p=12025485#post12025485
 
 
