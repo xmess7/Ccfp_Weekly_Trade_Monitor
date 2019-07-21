@@ -12,6 +12,7 @@ extern int Xpos=10;
 extern int Ypos=50;
 
 string sfx,prfx;
+string keyTitle,keyTrade;
 
 //+------------------------------------------------------------------+
 //| Custom indicator initialization function                         |
@@ -20,6 +21,9 @@ int OnInit()
   {
    GetPrefixSuffix(Symbol(),prfx,sfx);
    RemoveObjects("x7");
+   
+   keyTitle="_Signals_TITLE_";
+   keyTrade="_Signals_TRADE_";
    
    return(INIT_SUCCEEDED);
   }
@@ -50,7 +54,7 @@ int OnCalculate(const int rates_total,
       getRandomSignals(result);
    }      
    
-   objTitle = (IDnumber<10?"0"+(string)IDnumber:(string)IDnumber)+"_x7_Signals_TITLE";
+   objTitle = (IDnumber<10?"0"+(string)IDnumber:(string)IDnumber)+"_x7"+keyTitle;
    if (ObjectFind(objTitle) == -1) ObjectCreate(ChartID(),objTitle,OBJ_LABEL,0,0,0,0);
    ObjectSet(objTitle, OBJPROP_CORNER, 0);
    ObjectSet(objTitle, OBJPROP_XDISTANCE, Xpos);
@@ -65,10 +69,11 @@ int OnCalculate(const int rates_total,
       
       localsymbol=prfx+result[x]+sfx;
        
-      obj = (IDnumber<10?"0"+(string)IDnumber:(string)IDnumber)+"_x7_Signals_TRADE_"+localsymbol;
+      obj = (IDnumber<10?"0"+(string)IDnumber:(string)IDnumber)+"_x7"+keyTrade+localsymbol;
       
       operation=(MathAbs(randomInteger(1,100))<50?"BUY":"SELL");
-      //operation=MA(result[x]); //sample EMA approach
+      //operation=MA(localsymbol); //sample EMA approach
+      //if(operation=="") continue;
       
       if (ObjectFind(obj) == -1) ObjectCreate(ChartID(),obj,OBJ_LABEL,0,0,0,0);
       ObjectSet(obj, OBJPROP_CORNER, 0);
@@ -178,10 +183,13 @@ bool IsNewBar() {
 }
 
 string MA(string _symbol) {
-      double ema= iMA(_symbol,PERIOD_CURRENT,14,0,MODE_EMA,PRICE_CLOSE);
+
+      double ema= iMA(_symbol,PERIOD_CURRENT,14,0,MODE_EMA,PRICE_CLOSE,1);
       
       if(MarketInfo(_symbol,MODE_BID)>ema) return("BUY");
       
       if(MarketInfo(_symbol,MODE_BID)<ema) return("SELL");
+      
+      return("");
    
 }
