@@ -92,4 +92,7 @@ There is alot more to cover but for now I urge you to go to the FFX thread:
  
  And discover what has been done with the EA. More videos to come soon to explain more of how to use this EA.
 
-Xmess7
+xmess7
+
+And as always.....
+The material presented here is for educational purposes.  The author makes no claim as to the profitability of subject programs.  Trading involves risk, please consult a professional for guidance on these matters. 
