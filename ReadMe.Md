@@ -10,6 +10,9 @@ The ccfp_trade_monitor EA is a glorified monitor.   It does not determine in of 
 VIDEOS:
 ----------------------------------------
 
+Update MT4 v59 (2020.02.21) Many updates were made to the code.  The main issue at this time was folks were not able to use the basket trail stop.  An input was causing confusion.  The video explains how the TrailStop section has changed and demonstrates the EA executing a trail stop on a basket.
+https://www.youtube.com/watch?v=eysEx_x7l7I
+
 The following video provides information on the latest updates and how to use the EA in the strategy tester. 
 Video on final version: 
 https://www.youtube.com/watch?v=yqiu9Eq0HeU
