@@ -1,1 +1,80 @@
-The video link shows how to setup the CCFP EA to use the two basket mode.  The approach is from yohec and more info can be found on
+THE XM7 CCFP EA TWO BASKET MODE
+----------------------------------------
+
+The two basket mode was introduced by Yohec. Atthis point (2020.04.25) the EA has undergone many changes.  It has been a good while since
+this approach was used or tested.   So anyway, try it out and if there are any issues, post a message at the FFX thread.  If I am still
+around I'll try to help out :)
+
+
+
+VIDEO INSTRUCTION:
+----------------------------------------
+
+https://www.youtube.com/watch?v=XneGX7JeuF4
+
+
+LINKS AND INFO FROM MY NOTES:
+-----------------------------------------
+
+https://www.forexfactory.com/showthread.php?p=11074598#post11074598
+
+I have been very successful trading with this system since the start of this year.
+ I have had 18 out of 18 winning weeks with an average profit of 200 pips per week. 
+I am posting this to share my strategy and hope that others can benefit.
+
+I trade only weekly baskets. 
+I use the original indicator “CCFp-Diff_[v2.0]” with the settings 10080, False, False, Trade level=2. 
+
+The EA I currently use is v40.3. I update to the latest version soon after xmess7 posts an updated EA. 
+I will outline my strategy in following posts.
+
+
+The basket opening time is based on the New York Stock Exchange opening. I open the baskets (virtual or real) 40 minutes after NYSE open. The NYSE opens at 09:30 Eastern time (13:30 GMT) so I open the baskets at 10:10 Eastern (14:10 GMT). My reason for this time is that during testing in 2017, I noticed a lot of volatility during the NYSE open and again at the top of the hour. So I decided to avoid these periods.
+
+======================================================================================
+
+https://www.forexfactory.com/showthread.php?p=11971073#post11971073
+I've experimented with your system and settings for the past 3 weeks and so far, I like what I see. 
+I have used the exact same settings for the CMSM indicator. The main difference of what I am doing is to not use SL or TP so that I can get an idea
+ on how much swing on the pip gain or loss. This table shows a summary of my results: Excel chart Image
+
+======================================================================================
+
+https://www.forexfactory.com/showthread.php?p=11075093#post11075093
+Here are the details of my strategy:
+
+1. Open Real Basket on Tuesday at 14:10 GMT.
+
+2. Open Virtual Basket at exactly the same time on Tuesday at 14:10 GMT. The position size for the VB is 50% higher than the position size for the Real Basket. If the position size for the RB is 0.02 lots, then the VB position size is 0.03 lots. If position size for RB is 0.04 lots, then VB position size is 0.06 lots, etc.
+
+3. The trigger for the VB to open real basket is a “big” drawdown. The trigger level depends on the number of positions traded, as follows:
+
+======================================================================================
+LAtest changes (2019.02.13)  Negative Trigger Approach
+https://www.forexfactory.com/showthread.php?p=11995302#post11995302
+My new negative trigger settings are: 
+5 or less pairs = -150 pips
+6 to 10 pairs = -250 pips
+11 to 14 pairs = -350 pips
+15 or more = -450 pips.
+
+Previous neg triggers:
+# of positions: 6 or less, Trigger level: -200 pips
+# of positions: 7 to 10, Trigger level: -300 pips
+# of positions: 11 to 14, Trigger level: -400 pips
+# of positions: 15 or more, Trigger level: -500 pips
+
+When you fix the settings for the VB, check the number of positions that the indicator suggested and adjust the trigger level.
+
+4. If the Real Basket hits the profit lock, then you cancel the VB and you are finished for the week.
+
+5. If the VB triggered a second basket, then you need to monitor your baskets for a good time to exit. Once you have enough profit from the second basket to make up for the losses of the first basket you can consider closing both baskets. My average profit from second baskets has been +200 pips, more than enough to make up for losses from the first.
+
+So this is an overview of my system. I have traded for 18 weeks this year, and they have all been winners. The Virtual Basket triggered a second basket on 7 of the 18 weeks.
+
+On following posts I will show details of my weekly results.
+
+Preset that Yohec Used:
+https://www.forexfactory.com/showthread.php?p=12261916#post12261916
+
+
