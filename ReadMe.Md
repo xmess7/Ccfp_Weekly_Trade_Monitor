@@ -27,6 +27,10 @@ https://www.youtube.com/watch?v=yqiu9Eq0HeU
 
 Still there is not up to daye setup\installation available. I've left a folder that contains quick guide PDFs. Again, these guides are outdated but they do convey the basic information that can help the user setup the EA/Indicators. In addition I have provided the templates I use for live trading.  IF the user is familiar with the metatrader setup, they should in no time have this EA up and running.  As time permits I will create more up to date video instructions that pertain to installation\setup.
 
+Yohec, Negative Trigger Setup (if using this feature, pls see this video, it explains setup and how it works)
+https://www.youtube.com/watch?v=cqX2R40D1Qo
+https://www.youtube.com/watch?v=XneGX7JeuF4 (alot more details on setup of 2 basket mode)
+
 INSTALLATION:
 ----------------------------------------
 
@@ -66,6 +70,8 @@ Negative Trigger Approach:
 Details of Approach (2019.05.08):
 
 https://www.forexfactory.com/showthread.php?p=12261916#post12261916
+https://www.youtube.com/watch?v=cqX2R40D1Qo  (basic info, this is when the feature was released on that version)
+https://www.youtube.com/watch?v=XneGX7JeuF4 (more detailed on setup of 2 basket mode)
 
 ----------------------------------------
 2Basket Approach 
