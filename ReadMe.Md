@@ -9,7 +9,7 @@ The ccfp_trade_monitor EA is a glorified monitor.   It does not determine in of 
 
 UPDATES:
 ----------------------------------------
-Update(202.04.12): As of a couple of weeks ago I have decide to undergo a clean up effort of the EAs.  This effort involves going over all of the code and implementing leaner and better code.  In addition all of the development code that was left over is removed.  To date we are making great progress in that signifcant improvements on speed, reliability, etc... are being seen.  , the EAs load up faster, As a consequence major improvements. Many operation were revisted and improved upon.  This video illustrates these improvements.
+Update(2020.04.12): As of a couple of weeks ago I have decide to undergo a clean up effort of the EAs.  This effort involves going over all of the code and implementing leaner and better code.  In addition all of the development code that was left over is removed.  To date we are making great progress in that signifcant improvements on speed, reliability, etc... are being seen.  , the EAs load up faster, As a consequence major improvements. Many operation were revisted and improved upon.  This video illustrates these improvements.
 I attempt to stress test the latest version to show the EAs operation improvements.
 
 https://youtu.be/S59-nCc7bjI
