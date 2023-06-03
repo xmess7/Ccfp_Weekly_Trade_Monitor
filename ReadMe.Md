@@ -5,7 +5,7 @@ The ccfp_weekly_trade_monitor Expert Advisor (EA) is a program that was develope
 
 (2023.06.02)  comments:
 The plan for now is to create version 100.  It will just be a version that contains alot less inputs.  Same functionalilty with a more simpler and clearer input list.
-As mentioned before this is a fully functioning EA.  It was forward tested for many months.  It was also tested in a prop firm trail challenge (FTMO). and it passed.  So this EA is ready and able to pass prop firm challenges.
+As mentioned before this is a fully functioning EA.  It was forward tested for many months.  It was also tested in a prop firm trail challenge (FTMO). and it passed.  So this EA is ready and able to pass prop firm challenges.  See Challenge results here: https://github.com/xmess7/Ccfp_Weekly_Trade_Monitor/blob/master/PDF_Guides/ccfp_ftmo.pdf
 
 
 The ccfp_trade_monitor EA is a glorified monitor.   It does not determine in of itself, what trades to initiate.  The EA takes a list of SUGGESTED trade operations from an indicator (currently CCFP-Diff or CMSM), and given certain requirements, creates a basket of trades.   The EA then monitors the overall profit of the basket of trades and applies money management to control risk.  So without an indicator the EA monitor cannot do anything.
