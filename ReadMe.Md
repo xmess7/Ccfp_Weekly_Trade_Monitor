@@ -1,9 +1,12 @@
 THE XM7 CCFPT WEEKLY TRADE MONITOR EXPERT ADVISOR
 ----------------------------------------
 
-The ccfp_weekly_trade_monitor Expert Advisor (EA) is a tool that was developed to support the basket approach idea provided by Forexpinbar (forexfactory thread: https://www.forexfactory.com/showthread.php?t=635569).  The project started back on January 2017 and finally after more than 52 iterations (I say more cause there were subversions) we have arrived to what I consider the final versions(two platforms MT4 and MT5).
+The ccfp_weekly_trade_monitor Expert Advisor (EA) is a program that was developed to support the basket approach idea provided by Forexpinbar (forexfactory thread: https://www.forexfactory.com/showthread.php?t=635569).  The project started back on January 2017 and finally after 99.92 updates a fully functional EA has emerged, LOL.  This is a fully functioning final version.  Please note that no update was made for the MT5.  If times allows and there is interest  I will update the MT5 version with the MT4 fixes. 
 
-These versions are stable, as far as the "CORE" functions are concerned. A group of us (see the last pages of forexfactory thread) have been running the EA under live accounts with success for the last year and a half.   I do not plan to make anymore upgrades, at least not to the functionality or approach the code has.  I may add additional help functions as time permits.
+(2023.06.02)  comments:
+The plan for now is to create version 100.  It will just be a version that contains alot less inputs.  Same functionalilty with a more simpler and clearer input list.
+As mentioned before this is a fully functioning EA.  It was forward tested for many months.  It was also tested in a prop firm trail challenge (FTMO). and it passed.  So this EA is ready and able to pass prop firm challenges.
+
 
 The ccfp_trade_monitor EA is a glorified monitor.   It does not determine in of itself, what trades to initiate.  The EA takes a list of SUGGESTED trade operations from an indicator (currently CCFP-Diff or CMSM), and given certain requirements, creates a basket of trades.   The EA then monitors the overall profit of the basket of trades and applies money management to control risk.  So without an indicator the EA monitor cannot do anything.
 
@@ -12,24 +15,28 @@ UPDATES:
 Update(2020.04.12): As of a couple of weeks ago I have decide to undergo a clean up effort of the EAs.  This effort involves going over all of the code and implementing leaner and better code.  In addition all of the development code that was left over is removed.  To date we are making great progress in that signifcant improvements on speed, reliability, etc... are being seen.  , the EAs load up faster, As a consequence major improvements. Many operation were revisted and improved upon.  This video illustrates these improvements.
 I attempt to stress test the latest version to show the EAs operation improvements.
 
-https://youtu.be/S59-nCc7bjI
+
+Update(2023.06.02): The following are the updates that were added to version 99.92:
+- updated the Monitor Trail function
+- Added and updated the CandleColor Code from v96.1.  Fixed the issue that the filter partially works.  It would randonly allow valid filter conditions.
+
+- Fixed "Add new Trade Suggestions on realBasket" to operate correctly and add trades when conditions were met.  
+
+- Updated basket BE,TrailStop names and added a second target lock. 
+     basketBETrigger, move basketStop to BE
+     basketBELock, basket lock Level afte/when BETrigger reached
+     basket2ndTrigger, move basketstop to 2nd target
+     basket2ndLock, 2nd basket lock level after/when 2ndTrigger is reached
+     StepDelta, delta basket move for trail to be moved
+     TrailStop, fixed trail stop
+               
+- Added MinTradesAllowed 
 
 
 VIDEOS:
 ----------------------------------------
 
-Basket Trail Stop Operation example:
-The video explains how the TrailStop section has changed and demonstrates the EA executing a trail stop on a basket.
-https://www.youtube.com/watch?v=eysEx_x7l7I
-
-How to use in EA strat Tester (update to come soon that will allow the buttons to operate):
-https://www.youtube.com/watch?v=yqiu9Eq0HeU
-
-Still there is not up to daye setup\installation available. I've left a folder that contains quick guide PDFs. Again, these guides are outdated but they do convey the basic information that can help the user setup the EA/Indicators. In addition I have provided the templates I use for live trading.  IF the user is familiar with the metatrader setup, they should in no time have this EA up and running.  As time permits I will create more up to date video instructions that pertain to installation\setup.
-
-Yohec, Negative Trigger Setup (if using this feature, pls see this video, it explains setup and how it works)
-https://www.youtube.com/watch?v=cqX2R40D1Qo
-https://www.youtube.com/watch?v=XneGX7JeuF4 (alot more details on setup of 2 basket mode)
+(2023.06.0).  Stay tuned I will be creating new vidoes wih installation and usage information
 
 INSTALLATION:
 ----------------------------------------
