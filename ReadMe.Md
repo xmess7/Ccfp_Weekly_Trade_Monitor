@@ -3,6 +3,9 @@ THE XM7 CCFPT WEEKLY TRADE MONITOR EXPERT ADVISOR
 
 The ccfp_weekly_trade_monitor Expert Advisor (EA) is a program that was developed to support the basket approach idea provided by Forexpinbar (forexfactory thread: https://www.forexfactory.com/showthread.php?t=635569).  The project started back on January 2017 and finally after 99.92 updates a fully functional EA has emerged, LOL.  This is a fully functioning final version.  Please note that no update was made for the MT5.  If times allows and there is interest  I will update the MT5 version with the MT4 fixes. 
 
+Get the MT4 version at: https://github.com/xmess7/Ccfp_Weekly_Trade_Monitor/tree/master/MT4/Experts
+Get the MT5 version at: https://github.com/xmess7/Ccfp_Weekly_Trade_Monitor/tree/master/MT5/Expert
+
 (2023.06.02)  comments:
 The plan for now is to create version 100.  It will just be a version that contains alot less inputs.  Same functionalilty with a more simpler and clearer input list.
 As mentioned before this is a fully functioning EA.  It was forward tested for many months.  It was also tested in a prop firm trail challenge (FTMO). and it passed.  So this EA is ready and able to pass prop firm challenges.  See Challenge results here: https://github.com/xmess7/Ccfp_Weekly_Trade_Monitor/blob/master/PDF_Guides/ccfp_ftmo.pdf
